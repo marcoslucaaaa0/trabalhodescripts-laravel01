@@ -17,7 +17,7 @@ class LoginController extends Controller
         ]);
 
         if($request->email == "huehue@gmail.com" && $request->senha == "123456")
-            return redirect()->route('comprar');
+            return redirect()->route('comprar')->with('message', 'ok');
 
         else
              return redirect() -> back() -> with('erro', 'login ou  senha incorretos!');

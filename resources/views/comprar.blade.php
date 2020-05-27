@@ -30,7 +30,7 @@
                 <div class="dropdown-menu">
                     <a href="{{route('corrida')}}" class="dropdown-item">Tênis de corrida</a>
                     <div class="dropdown-divider"></div>
-                    <a href="{{route('skateesurf)}}" class="dropdown-item">Skate e Surf</a>
+                    <a href="{{route('skateesurf')}}" class="dropdown-item">Skate e Surf</a>
                     <div class="dropdown-divider"></div>
                     <a href="{{route('basquete')}}" class="dropdown-item">Basquete</a>
                     <div class="dropdown-divider"></div>
